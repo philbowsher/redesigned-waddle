@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "R Notebook Awesome R Team I"
 output: html_notebook
 ---
 
@@ -45,5 +45,18 @@ ggplot(visits_by_hospital) +
   aes(x = encounterclass, y = total_visits) +
   geom_boxplot(shape = "circle", fill = "#112446") +
   theme_minimal()
+```
+
+
+```{r}
+
+
+library(ggplot2)
+
+p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
+            geom_bar(position = "dodge")
+
+p
+
 ```
 
