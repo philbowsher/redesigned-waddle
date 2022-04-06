@@ -1,0 +1,44 @@
+─ Session info ─────────────────────────────────────────────────────
+ setting  value                       
+ version  R version 4.0.2 (2020-06-22)
+ os       Ubuntu 18.04.6 LTS          
+ system   x86_64, linux-gnu           
+ ui       RStudio                     
+ language (EN)                        
+ collate  C.UTF-8                     
+ ctype    C.UTF-8                     
+ tz       Etc/UTC                     
+ date     2022-04-06                  
+
+─ Packages ─────────────────────────────────────────────────────────
+ package     * version date       lib source        
+ cachem        1.0.6   2021-08-19 [2] RSPM (R 4.0.5)
+ callr         3.7.0   2021-04-20 [2] RSPM (R 4.0.4)
+ cli           3.0.1   2021-07-17 [2] RSPM (R 4.0.5)
+ crayon        1.4.1   2021-02-08 [2] RSPM (R 4.0.3)
+ desc          1.3.0   2021-03-05 [2] RSPM (R 4.0.3)
+ devtools      2.4.2   2021-06-07 [2] RSPM (R 4.0.5)
+ ellipsis      0.3.2   2021-04-29 [2] RSPM (R 4.0.4)
+ fastmap       1.1.0   2021-01-25 [2] RSPM (R 4.0.3)
+ fs            1.5.0   2020-07-31 [2] RSPM (R 4.0.3)
+ glue          1.4.2   2020-08-27 [2] RSPM (R 4.0.3)
+ lifecycle     1.0.1   2021-09-24 [2] RSPM (R 4.0.5)
+ magrittr      2.0.1   2020-11-17 [2] RSPM (R 4.0.3)
+ memoise       2.0.0   2021-01-26 [2] RSPM (R 4.0.3)
+ pkgbuild      1.2.0   2020-12-15 [2] RSPM (R 4.0.3)
+ pkgload       1.2.1   2021-04-06 [2] RSPM (R 4.0.4)
+ prettyunits   1.1.1   2020-01-24 [2] RSPM (R 4.0.3)
+ processx      3.5.2   2021-04-30 [2] RSPM (R 4.0.4)
+ ps            1.6.0   2021-02-28 [2] RSPM (R 4.0.3)
+ purrr         0.3.4   2020-04-17 [2] RSPM (R 4.0.3)
+ R6            2.5.1   2021-08-19 [2] RSPM (R 4.0.5)
+ remotes       2.4.2   2021-11-30 [2] RSPM (R 4.0.5)
+ rlang         1.0.2   2022-03-04 [2] RSPM (R 4.0.5)
+ rprojroot     2.0.2   2020-11-15 [2] RSPM (R 4.0.3)
+ sessioninfo   1.1.1   2018-11-05 [2] RSPM (R 4.0.3)
+ testthat      3.0.4   2021-07-01 [2] RSPM (R 4.0.5)
+ usethis       2.0.1   2021-02-10 [2] RSPM (R 4.0.3)
+ withr         2.4.2   2021-04-18 [2] RSPM (R 4.0.4)
+
+[1] /home/intusurg/R/x86_64-pc-linux-gnu-library/4.0
+[2] /opt/R/4.0.2/lib/R/library

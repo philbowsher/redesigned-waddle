@@ -1,0 +1,49 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+these are my packages
+
+```{r setup}
+
+library(readr)
+library(ggplot2)
+library(dplyr)
+
+
+```
+
+here is our data
+
+```{r}
+
+
+visits_by_hospital <- read_csv("https://raw.githubusercontent.com/philbowsher/Foundation-of-the-R-Workflow-workshop-2019-09-06/master/Examples/data/visits_by_hospital.csv")
+visits_by_hospital
+
+```
+
+data viz!!!
+
+```{r}
+
+visits_by_hospital %>%
+ filter(!(name %in% "kent county memorial hospital")) %>%
+ filter(total_visits >= 
+ 2514L & total_visits <= 59329L) %>%
+ ggplot() +
+  aes(x = total_visits, fill = name) +
+  geom_histogram(bins = 30L) +
+  scale_fill_hue(direction = 1) +
+  theme_minimal()
+
+```
+```{r}
+ggplot(visits_by_hospital) +
+  aes(x = encounterclass, y = total_visits) +
+  geom_boxplot(shape = "circle", fill = "#112446") +
+  theme_minimal()
+```
+
